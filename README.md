@@ -4,12 +4,12 @@ Sistema (CRUD) para cadastro de pessoas, endereços e filmes favoritos.
 
 Possui 5 Entidades:
 Usuario (com informações básicas de identificação);
-Endereço: (logradouro, numero, complemento...)
-Cidade: (id e nome das cidades)
-Estado (id, nome e sigla)
-Filmes (titulo, ano, genero e diretor)
+Endereço: (logradouro, numero, complemento...);
+Cidade: (id e nome das cidades);
+Estado (id, nome e sigla);
+Filmes (titulo, ano, genero e diretor);
 
-Ocorre separação da cidade e endereço visando seguir normalização de dados. SQL com as cidades está no pŕojeto e foi retirado de http://samus.com.br/web/site/artigo-todas_as_cidades_do_brasil_atualizado_e_com_acentos.
+Ocorre separação da cidade e endereço visando seguir normalização de dados. Está no projeto o SQL com as cidades. O mesmo foi retirado de http://samus.com.br/web/site/artigo-todas_as_cidades_do_brasil_atualizado_e_com_acentos.
 Poderia ser implementado algum serviço de auto-completar via webservice.
 
 Relacionamentos Principais:
@@ -22,7 +22,7 @@ Acessar a url /usuarios para visualização dos usuários cadastrados. A partir 
 
 Em /usuarios, ao clicar em cima de algum registro, abre-se os detalhes com todos os endereços e filmes favoritos do usuário clicado.
 
-Enfrentei dificuldade com a questão de autenticação no Laravel. Assim, não consegui implementar à tempo a autenticação solicitada.
+Enfrentei dificuldade com a questão de autenticação no Laravel. Assim, não consegui implementar a tempo a autenticação solicitada.
 
 Pontos de Correção / Melhoria:
 - Views (adotar reutilização, melhorar design, melhorar apresentação das informações);
